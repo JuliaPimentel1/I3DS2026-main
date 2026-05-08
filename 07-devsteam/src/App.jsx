@@ -13,10 +13,12 @@ function App() {
 
       <Navbar />
 
-      <h1 className="titulo">
+      <div className="container mt-4">
+      <h1 className="titulo ">
         PROMOÇÕES
-      </h1>
 
+      </h1>
+       </div>
       <div className="cards">
 
         <Card img={jogo1}/>
@@ -24,11 +26,11 @@ function App() {
         <Card img={jogo3}/>
       </div>
 
-  
+      <div className="container mt-4">
       <h1 className="titulo">
         OUTROS JOGOS
       </h1>
-
+        </div>
       <div className="games">
 
         <Game />
