@@ -24,6 +24,7 @@ function App() {
         <Card img={jogo3}/>
       </div>
 
+  
       <h1 className="titulo">
         OUTROS JOGOS
       </h1>
@@ -36,10 +37,12 @@ function App() {
         <Game />
 
       </div>
-
     </div>
   )
-
 }
+
+<footer className="bg-dark text-white-50 text-center py-4 border-top border-secondary mt-5">
+  <small>DevSteam © 2026 - Desenvolvido por [Seu Nome/Grupo] - Prof. Castello</small>
+</footer>
 
 export default App

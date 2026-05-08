@@ -1,10 +1,11 @@
-body{
-    background-color: #16273d;
+body{ background-color: #f276b2;
+    color: #333333;
     margin: 0;
+    font-family: Arial;
 }
 
 .navbar{
-    background-color: #0b1120;
+    background-color: #d592b7;
 
     display: flex;
 
@@ -30,7 +31,7 @@ body{
 
     padding-left: 10px;
 
-    background-color: #316282; /* cor da barra */
+    background-color: #f276b2; /* cor da barra */
     color: white; /* texto digitado */
 }
 
@@ -41,7 +42,7 @@ body{
 }
 
 .titulo{
-    color: white;
+    color: #f5dfeb;
 
     margin-left: 60px;
 
@@ -57,9 +58,9 @@ body{
 }
 
 .card{
-    background-color: #2d8bb9;
-    width: 250px;
-    border-radius: 0px;
+    background-color: #eaa5cb;
+    width: 270px;
+    border-radius: 7px;
     overflow: hidden;
     padding-bottom: 10px;
     height: 420px; /* importante */
@@ -71,9 +72,10 @@ body{
 .card img{
     width: 130;
 
-    height: 280px;
+    height: 293px;
 
     object-fit: cover;
+   
 }
 
 .card h2{
@@ -87,7 +89,7 @@ body{
 }
 
 .card p{
-    color: yellow;
+    color: rgb(227, 227, 66);
 
     margin-left: 10px;
 
@@ -103,11 +105,12 @@ body{
 
     border: none;
 
-    background-color: #7db400;
+    background-color: #f276b2;
 
     color: white;
 
     border-radius: 5px;
+
 }
 
 .preco{
@@ -117,14 +120,14 @@ body{
 
     justify-content: space-between;
 
-    background-color: #344654;
+    background-color: #455867;
 
     margin: 0 15px;
     /* margin-top: 20px; */
 }
 
 .preco h3{
-    background-color: #7db400;
+    background-color: #a4cc47;
 
     color: white;
 
@@ -146,7 +149,7 @@ body{
 }
 
 .preco h4{
-    color: yellow;
+    color: rgb(227, 227, 66);
 
     font-size: 20px;
     padding: 0;
@@ -166,30 +169,34 @@ body{
 }
 
 .game{
-    background-color: #2d8bb9;
+    background-color: #eaa5cb;
 
-    width: 90%;
+    width: 78%;
 
     display: flex;
 
     align-items: center;
 
     justify-content: space-between;
+
+    border-radius: 7px;
 }
 
 .game img{
     width: 300px;
 
-    height: 180px;
+    height: 195px;
 
     object-fit: cover;
+
+    border-radius: 7px;
 }
 
 
 .game-info{
     width: 100%;
 
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .game-info h2{
@@ -201,8 +208,7 @@ body{
 }
 
 .game-info h3{
-    color: yellow;
-
+    color: rgb(227, 227, 66);
     font-size: 40px;
 }
 
@@ -215,9 +221,16 @@ body{
 
     border: none;
 
-    background-color: #7db400;
+    background-color: #a4cc47;
 
     color: white;
 
     border-radius: 7px;
 }
+
+.card:hover{
+    transform: scale(1.05);
+
+    transition: transform 0.3s;
+}
+
